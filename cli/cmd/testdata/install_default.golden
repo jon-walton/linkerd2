@@ -1705,6 +1705,7 @@ spec:
           name: config
         - mountPath: /var/run/linkerd/tls
           name: tls
+          readOnly: true
       - env:
         - name: LINKERD2_PROXY_LOG
           value: warn,linkerd2_proxy=info
@@ -1924,6 +1925,7 @@ spec:
         volumeMounts:
         - mountPath: /var/run/linkerd/tls
           name: tls
+          readOnly: true
       - env:
         - name: LINKERD2_PROXY_LOG
           value: warn,linkerd2_proxy=info
