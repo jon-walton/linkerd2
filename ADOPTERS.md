@@ -7,6 +7,7 @@
 - [figo](https://www.figo.io/)
 - [Just Football](https://justfootball.io)
 - [Kairos](https://kairos.com)
+- [PlayStudios Asia](https://www.playstudios.asia/)
 - [Studyo](https://studyo.co)
 
 If you're using Linkerd 2.x and aren't on this list, please [submit a pull
